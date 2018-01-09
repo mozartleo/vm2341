@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    App\AdminBundle\:
+        resource: '../../*'
+        exclude: '../../{Entity,Migrations,Tests}'
+
+    App\AdminBundle\Controller\:
+        resource: '../../Controller'
+        tags: ['controller.service_arguments']

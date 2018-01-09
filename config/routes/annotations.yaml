@@ -1,3 +1,9 @@
-controllers:
-    resource: ../../src/Controller/
+app.main:
+    resource: ../../src/MainBundle/Controller/
     type: annotation
+    prefix: /
+
+app.admin:
+    resource: ../../src/AdminBundle/Controller/
+    type: annotation
+    prefix: /admin

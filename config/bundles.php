@@ -8,4 +8,6 @@ return [
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
     Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle::class => ['all' => true],
+    App\MainBundle\MainBundle::class => ['all' => true],
+    App\AdminBundle\AdminBundle::class => ['all' => true],
 ];
